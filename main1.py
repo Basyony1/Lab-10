@@ -61,8 +61,8 @@ speak('Starting')
 time.sleep(0.5)
 rec.stream.start_stream()
 for text in text_gen:
-    if text == 'закрыть':
-        speak('Бывай, ихтиандр')
+    if text == 'close':
+        speak('my pleasure')
         quit()
     else:
         print(text)
